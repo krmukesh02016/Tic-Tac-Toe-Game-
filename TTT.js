@@ -34,7 +34,10 @@ for(var i=0; i<9; i++)
             count++;
             check();
         }
-        
+        if(ist && count==9)
+        {
+        span.textContent="Match Draw.";
+        }
         
         
     });
